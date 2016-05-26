@@ -1,5 +1,32 @@
 <div>
-    <h3>{{$ctrl.message}}</h3>
-    <input ng-model="$ctrl.message"/>
-    <button ng-click="$ctrl.changeMessage()">Change message</button>
+    <h2>List of watched titles</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr class="info">
+                    <th>Title</th>
+                    <th>Length</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in $ctrl.watchList">
+                    <td ng-bind="item.title"></td>
+                    <td ng-bind="item.length"></td>
+                    <td ng-bind="item.rating"></td>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-default" ng-click="$ctrl.downRating(item)">
+                                <span class="glyphcon glyphicon-minus"></span>
+                            </button>
+                            <button class="btn btn-default" ng-click="$ctrl.upRating(item)">
+                                <span class="glyphcon glyphicon-plus"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
