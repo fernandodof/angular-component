@@ -3,6 +3,12 @@
 
     var app = angular.module('wlist');
 
+    app.component('watchList', {
+        templateUrl: 'app/components/watch-list/watch-list.component.html',
+        controller: ['WatchListService', controller]
+    });
+
+    controller.$inject = ['WatchListService'];
     function controller(WatchListService) {
         var self = this;
         self.watchList = [];
@@ -26,11 +32,5 @@
             }
         };
     }
-
-    app.component('watchList', {
-        templateUrl: 'app/components/watch-list/watch-list.component.html',
-        controller: ['WatchListService', controller]
-    });
-
 
 })();

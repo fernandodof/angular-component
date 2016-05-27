@@ -1,26 +1,30 @@
 [
     {
         "id" : 1,
-        "title": "Star wars",
+        "title": "Star Wars: The Force Awakens",
         "rating" : 5,
-        "length" : 120
+        "length" : 135,
+        "image" : "http://www.flickeringmyth.com/wp-content/uploads/2015/12/star-wars-the-force-awakens-quad-poster.jpg"
     },
     {
         "id" : 2,
-        "title": "Star Trek",
+        "title": "Fight club",
         "rating" : 4,
-        "length" : 90
+        "length" : 151,
+        "image" : "http://www.bluecatscreenplay.com/wp-content/uploads/2015/09/fight-club2.jpg"
     },
     {
         "id" : 3,
-        "title": "Terminator",
-        "rating" : 4,
-        "length" : 125
+        "title": "Terminator: Judgement day",
+        "rating" : 5,
+        "length" : 154,
+        "image" : "http://www.luckywinslots.com/blog/wp-content/uploads/2014/06/SquareButton_option-1024x768.jpg"
     },
     {
         "id" : 4,
-        "title": "The Hobbit",
-        "rating" : 5,
-        "length" : 480
+        "title": "Resident Evil: Retribution",
+        "rating" : 4,
+        "length" : 480,
+        "image" : "http://hitmovie.co/wp-content/uploads/2016/01/Resident-Evil-Retribution-2012.jpg"
     }
 ]

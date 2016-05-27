@@ -14,16 +14,21 @@
                 <tr ng-repeat="item in $ctrl.watchList">
                     <td ng-bind="item.title"></td>
                     <td ng-bind="item.length"></td>
-                    <td ng-bind="item.rating"></td>
                     <td>
-                        <div class="btn-group">
-                            <button class="btn btn-default" ng-click="$ctrl.downRating(item)">
-                                <span class="glyphcon glyphicon-minus"></span>
-                            </button>
-                            <button class="btn btn-default" ng-click="$ctrl.upRating(item)">
-                                <span class="glyphcon glyphicon-plus"></span>
-                            </button>
-                        </div>
+                        <movie-rating rating="item.rating">
+                            <span class="fa fa-star"></span>
+                        </movie-rating>
+                    </td>
+                    <td>
+                        <button class="btn btn-default" ng-click="$ctrl.downRating(item)">
+                            <span class="fa fa-minus"></span>
+                        </button>
+                        <button class="btn btn-default" ng-click="$ctrl.upRating(item)">
+                            <span class="fa fa-plus"></span>
+                        </button>
+                        <a ng-link="['Details', {id: item.id}]" class="btn btn-primary">
+                            <span class="fa fa-eye"></span>
+                        </a>    
                     </td>
                 </tr>
             </tbody>

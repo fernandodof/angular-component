@@ -1,0 +1,23 @@
+<nav class="nav navbar-default navbar-inverse" id="top-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" ng-link="['List']">Watch list</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse-nav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ng-link="['List']">List <span class="sr-only">(current)</span></a></li>
+                <li><a ng-link="['About']">About</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav> 
+
+<div class="container">
+    <ng-outlet></ng-outlet>
+</div>

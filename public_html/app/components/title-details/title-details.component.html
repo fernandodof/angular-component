@@ -1,0 +1,16 @@
+<div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title" ng-bind="$ctrl.title.title"></h3>
+        </div>
+        <div class="panel-body">
+            <movie-rating rating="$ctrl.title.rating">
+                <span class="fa fa-star"></span>
+            </movie-rating>
+
+            <p>Lenght: {{$ctrl.title.length}}</p>
+            
+            <img ng-src="{{$ctrl.title.image}}" class="img-responsive"/>
+        </div>
+    </div>
+</div>

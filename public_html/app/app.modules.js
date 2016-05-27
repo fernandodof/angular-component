@@ -1,6 +1,9 @@
 (function (){
     "use strict";
     
-    angular.module('wlist',[]);
+    angular.module('wlist',[
+        'ngComponentRouter'
+    ]).value('$routerRootComponent', 'topRouter');
+    
     
 })();

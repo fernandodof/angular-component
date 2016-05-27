@@ -8,7 +8,8 @@
   ],
   "dependencies": {
     "angular": "^1.5.5",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "^4.6.3"
   },
   "devDependencies": {}
 }

@@ -1,7 +1,6 @@
 (function () {
-    var app = angular.module('wlist');
 
-    app.service('WatchListService', ['$http', function ($http) {
+    angular.module('wlist').service('WatchListService', ['$http', '$q', '$filter', function ($http, $q, $filter) {
             var self = this;
 
             self.fetchList = function () {
@@ -9,6 +8,25 @@
                         .then(function (response) {
                             return response.data;
                         });
+            };
+
+            self.getTitle = function (id) {
+                var deferred = $q.defer();
+
+                $http.get('app/static-data/watched.json')
+                        .then(function (response) {
+
+//                            var title = response.data.filter(function (obj) {
+//                                return obj.id === id;
+//                            })[0];
+
+                            deferred.resolve($filter('filter')(response.data,{id: id})[0]);
+
+                        }, function () {
+                            deferred.reject(response);
+                        });
+
+                return deferred.promise;
             };
 
         }]);
