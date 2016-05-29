@@ -1,0 +1,32 @@
+{
+  "name": "watchlist",
+  "version": "1.0.0",
+  "description": "Angular component example",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "ecstatic": "^1.4.1",
+    "gulp": "^3.9.1",
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandodof/angular-compnent.git"
+  },
+  "keywords": [
+    "angular",
+    "component",
+    "component-router"
+  ],
+  "author": "fernandodof@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandodof/angular-compnent/issues"
+  },
+  "homepage": "https://github.com/fernandodof/angular-compnent#readme"
+}
