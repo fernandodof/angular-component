@@ -2,7 +2,7 @@
 
 This project shows some examples of how to work with angular compnents (new in angular 1.5) and the angular-component-router.
 
-## Instalation Instructions
+## Instructions
 
 * Clone this repo: by running: `$ git clone https://github.com/fernandodof/angular-component.git` 
 * cd into its folder 
