@@ -20,16 +20,20 @@
                     });
         };
 
-        self.upRating = function (movie) {
-            if (movie.rating < 5) {
-                movie.rating++;
+        self.upRating = function (title) {
+            if (title.rating < 5) {
+                title.rating++;
             }
         };
 
-        self.downRating = function (movie) {
-            if (movie.rating > 1) {
-                movie.rating--;
+        self.downRating = function (title) {
+            if (title.rating > 1) {
+                title.rating--;
             }
+        };
+
+        self.setRating = function (title, rating) {
+            title.rating = rating;
         };
     }
 

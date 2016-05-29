@@ -1,16 +1,7 @@
-<div class="col-md-6 col-md-offset-3">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title" ng-bind="$ctrl.title.title"></h3>
-        </div>
-        <div class="panel-body">
-            <movie-rating rating="$ctrl.title.rating">
-                <span class="fa fa-star fa-3x"></span>
-            </movie-rating>
+<ul class="nav nav-pills nav-stacked col-md-3">
+  <li role="presentation" router-active="active" ><a ng-link="['Overview']">Overview</a></li>
+  <li role="presentation" router-active="active"><a ng-link="['Cast']">Cast</a></li>
+  <li role="presentation" router-active="active"><a ng-link="['Director']">Director</a></li>
+</ul>
 
-            <h2>Lenght: {{$ctrl.title.length}}</h2>
-            
-            <img ng-src="{{$ctrl.title.image}}" class="img-responsive"/>
-        </div>
-    </div>
-</div>
+<ng-outlet class="col-md-9"></ng-outlet>

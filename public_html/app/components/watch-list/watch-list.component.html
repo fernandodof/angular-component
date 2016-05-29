@@ -15,9 +15,7 @@
                     <td ng-bind="item.title"></td>
                     <td ng-bind="item.length"></td>
                     <td>
-                        <movie-rating rating="item.rating">
-                            <span class="fa fa-star"></span>
-                        </movie-rating>
+                        <movie-rating rating="item.rating" max="5" set-rating="$ctrl.setRating(item, rating)"></movie-rating>
                     </td>
                     <td>
                         <button class="btn btn-default" ng-click="$ctrl.downRating(item)">
@@ -26,12 +24,22 @@
                         <button class="btn btn-default" ng-click="$ctrl.upRating(item)">
                             <span class="fa fa-plus"></span>
                         </button>
-                        <a ng-link="['Details', {id: item.id}]" class="btn btn-primary">
+                        <a ng-link="['Details', {id: item.id}, 'Overview']" class="btn btn-primary">
                             <span class="fa fa-eye"></span>
                         </a>    
                     </td>
                 </tr>
             </tbody>
         </table>
+        
+        <accordion>
+            <accordion-panel heading="Heading 1">
+                Panel 1
+            </accordion-panel>
+            <accordion-panel heading="Heading 2">
+                Panel 2
+            </accordion-panel>
+        </accordion>
+        
     </div>
 </div>

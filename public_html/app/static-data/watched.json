@@ -1,30 +1,42 @@
 [
     {
-        "id" : 1,
+        "id": 1,
         "title": "Star Wars: The Force Awakens",
-        "rating" : 5,
-        "length" : 135,
-        "image" : "http://www.flickeringmyth.com/wp-content/uploads/2015/12/star-wars-the-force-awakens-quad-poster.jpg"
+        "rating": 5,
+        "length": 135,
+        "image": "http://www.flickeringmyth.com/wp-content/uploads/2015/12/star-wars-the-force-awakens-quad-poster.jpg",
+        "synopsis": "Thirty years after the defeat of the Galactic Empire, the galaxy faces a new threat from the evil Kylo Ren (Adam Driver) and the First Order. When a defector named Finn crash-lands on a desert planet, he meets Rey (Daisy Ridley), a tough scavenger whose droid contains a top-secret map. Together, the young duo joins forces with Han Solo (Harrison Ford) to make sure the Resistance receives the intelligence concerning the whereabouts of Luke Skywalker (Mark Hamill), the last of the Jedi Knights.",
+        "cast": "Daisy Ridley, John Boyega, Harrison Ford, Adam Driver, Oscar Isaac, Carrie Fisher, Mark Hamill, Lupita Nyong'o, Gwendoline Christie",
+        "director": "J.J. Abrams"
     },
     {
-        "id" : 2,
+        "id": 2,
         "title": "Fight club",
-        "rating" : 4,
-        "length" : 151,
-        "image" : "http://www.bluecatscreenplay.com/wp-content/uploads/2015/09/fight-club2.jpg"
+        "rating": 4,
+        "length": 151,
+        "image": "http://www.bluecatscreenplay.com/wp-content/uploads/2015/09/fight-club2.jpg",
+        "synopsis": "A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.",
+        "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter, Helena Bonham Carter, Jared Leto, Meat Loaf, Zach Grenier, Tim De Zarn, Ezra Buzzington, Christina Cabot",
+        "director": "David Fincher"
     },
     {
-        "id" : 3,
+        "id": 3,
         "title": "Terminator: Judgement day",
-        "rating" : 5,
-        "length" : 154,
-        "image" : "http://www.luckywinslots.com/blog/wp-content/uploads/2014/06/SquareButton_option-1024x768.jpg"
+        "rating": 5,
+        "length": 154,
+        "image": "http://www.luckywinslots.com/blog/wp-content/uploads/2014/06/SquareButton_option-1024x768.jpg",
+        "synopsis": "In this sequel set eleven years after \"The Terminator,\" young John Connor (Edward Furlong), the key to civilization's victory over a future robot uprising, is the target of the shape-shifting T-1000 (Robert Patrick), a Terminator sent from the future to kill him. Another Terminator, the revamped T-800 (Arnold Schwarzenegger), has been sent back to protect the boy. As John and his mother (Linda Hamilton) go on the run with the T-800, the boy forms an unexpected bond with the robot.",
+        "cast": "Arnold Schwarzenegger, Edward Furlong, Linda Hamilton, Robert Patrick, Earl Boen, Joe Morton, Jenette Goldstein, Danny Cooksey, Xander Berkeley, Leslie Hamilton Gearren",
+        "director": "James Cameron"
     },
     {
-        "id" : 4,
+        "id": 4,
         "title": "Resident Evil: Retribution",
-        "rating" : 4,
-        "length" : 480,
-        "image" : "http://hitmovie.co/wp-content/uploads/2016/01/Resident-Evil-Retribution-2012.jpg"
+        "rating": 4,
+        "length": 96,
+        "image": "http://hitmovie.co/wp-content/uploads/2016/01/Resident-Evil-Retribution-2012.jpg",
+        "synopsis": "As Umbrella Corp.'s deadly T-virus continues to turn the world's population into legions of flesh-eating zombies, Alice (Milla Jovovich), the human race's last hope, awakes deep within Umbrella's secret operations facility. The further she delves into the complex, the more of her mysterious past is unveiled. Her global hunt for those responsible for the outbreak leads to a mind-blowing revelation; Aided by friends old and new, Alice fights to escape from a world on the edge of oblivion.",
+        "cast": "Milla Jovovich, Li Bingbing, Sienna Guillory, Michelle Rodriguez, Shawn Roberts, Johann Urb, Oded Fehr, Barry Burton, Colin Salmon, Aryana Engineer, Mika Nakashima",
+        "director": "Paul W. S. Anderson"
     }
 ]

@@ -14,7 +14,7 @@
             component: 'aboutPage'
         },{
             name: 'Details',
-            path: 'detail/:id',
+            path: 'detail/:id/...',
             component: 'titleDetails'
         },{
             path: '/**',

@@ -1,5 +1,3 @@
 <span ng-repeat="entry in $ctrl.entries track by $index">
-    <ng-transclude>
-        *
-    </ng-transclude>
+    <span class="fa {{entry}}" ng-click="$ctrl.setRating({rating: $index + 1})"></span>
 </span>
