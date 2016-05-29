@@ -1,6 +1,6 @@
 ## Synopsis
 
-This project shows some examples of how to work with angular compnents (new in angular 1.5) and the angular-component-router.
+This project shows some examples of how to work with angular components (new in angular 1.5) and the angular-component-router.
 
 ## Instructions
 
