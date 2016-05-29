@@ -31,7 +31,6 @@
         self.$routerOnActivate = function (next, previous) {
             WatchListService.getTitle(next.params.id).then(function (response) {
                 self.title = response;
-                console.log(self.title);
             });
         };
     }
