@@ -1,0 +1,35 @@
+<div>
+    <h2>List of watched titles</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr class="info">
+                    <th>Title</th>
+                    <th>Length</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in $ctrl.watchList">
+                    <td ng-bind="item.title"></td>
+                    <td ng-bind="item.length"></td>
+                    <td>
+                        <movie-rating rating="item.rating" max="5" set-rating="$ctrl.setRating(item, rating)"></movie-rating>
+                    </td>
+                    <td>
+                        <button class="btn btn-default" ng-click="$ctrl.downRating(item)">
+                            <span class="fa fa-minus"></span>
+                        </button>
+                        <button class="btn btn-default" ng-click="$ctrl.upRating(item)">
+                            <span class="fa fa-plus"></span>
+                        </button>
+                        <a ng-link="['Details', {id: item.id}, 'Overview']" class="btn btn-primary">
+                            <span class="fa fa-eye"></span>
+                        </a>    
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
