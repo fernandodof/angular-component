@@ -5,7 +5,7 @@
 
     app.component('watchList', {
         templateUrl: 'app/components/watch-list/watch-list.component.html',
-        controller: ['WatchListService', controller]
+        controller: controller
     });
 
     controller.$inject = ['WatchListService'];

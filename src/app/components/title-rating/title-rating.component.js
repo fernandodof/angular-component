@@ -19,7 +19,7 @@
             max: '<',
             setRating: '&'
         },
-        controller: [controller]
+        controller: controller
     });
 
 
