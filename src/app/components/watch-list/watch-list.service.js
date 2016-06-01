@@ -22,7 +22,7 @@
 
                             deferred.resolve($filter('filter')(response.data,{id: id})[0]);
 
-                        }, function () {
+                        }, function (response) {
                             deferred.reject(response);
                         });
 
