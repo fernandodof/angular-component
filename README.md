@@ -10,3 +10,5 @@ This project shows some examples of how to work with angular components (new in 
 * Install bower dependencies: by running `$ bower install` from your console
 * `$ gulp run` to run the project
 * Wanna see some magic ? go to **[http://localhost:7083/src/#/list](http://localhost:7083/src/#/list)**
+
+Questions, suggestions or anything else, please open an issue or email me: fernandodof@gmail.com
