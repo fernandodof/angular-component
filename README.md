@@ -1,6 +1,9 @@
-## Synopsis
+# Angular Component
+
+## Summary
 
 This project shows some examples of how to work with angular components (new in angular 1.5) and the angular-component-router.
+This is a simple website that shows movie tiltles, rating, and you can rate as well. Here you can find some examples angular components and how to integrate them with routes.
 
 ## Instructions
 
